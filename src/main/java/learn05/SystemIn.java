@@ -13,6 +13,9 @@ public class SystemIn {
         while (true){
             int i = System.in.read();
             System.out.print((char) i);
+
+            System.out.println("test git ...");
+
         }
     }
 
