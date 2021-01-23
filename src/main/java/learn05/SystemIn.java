@@ -14,7 +14,7 @@ public class SystemIn {
             int i = System.in.read();
             System.out.print((char) i);
 
-            System.out.println("test git ...");
+            System.out.println("just test git ...");
 
         }
     }
