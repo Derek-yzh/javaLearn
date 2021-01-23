@@ -24,7 +24,7 @@ public class _001_DateDemo {
         System.out.println(dateFormat.format(date));
         System.out.println(dateFormat.parse("2010-10-10 20:20:20"));
 
-        System.out.println("----------------------------------------");
+        System.out.println("-------------------Calendar:日历---------------------");
         Calendar calendar = Calendar.getInstance();//获取的当前系统的时间
         calendar.setTime(date);
         System.out.println(calendar);
