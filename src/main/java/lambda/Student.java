@@ -1,4 +1,4 @@
-package why;
+package lambda;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package why;
+package lambda;
 
 import java.util.ArrayList;
 
