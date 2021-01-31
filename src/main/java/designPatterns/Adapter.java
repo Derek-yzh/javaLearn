@@ -14,7 +14,7 @@ public class Adapter {
 
     public static void main(String[] args) throws Exception {
         FileInputStream fis = new FileInputStream("adapter.txt");
-        InputStreamReader isr = new InputStreamReader(fis);
+            InputStreamReader isr = new InputStreamReader(fis);
         BufferedReader br = new BufferedReader(isr);
         String line = br.readLine();
         while (line != null && !"".equals(line)) {
